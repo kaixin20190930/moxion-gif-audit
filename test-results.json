@@ -1,0 +1,212 @@
+{
+  "provenance": "Original synthetic animation generated locally with Pillow. No Moxion output used.",
+  "python": "3.11.6",
+  "pillow": "12.2.0",
+  "checks_passed": 5,
+  "results": {
+    "local-optimized.gif": {
+      "before": {
+        "bytes": 8354,
+        "sha256": "d32446bce268e4d439057463f603b29968db8c4eceac1f170f2a2a2a9087eb7f",
+        "size": [
+          160,
+          90
+        ],
+        "frames": 8,
+        "durations_ms": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "total_duration_ms": 800,
+        "loop": 0
+      },
+      "after": {
+        "bytes": 2306,
+        "sha256": "4cb793e34e887ccba3e20672d89c1c4908ee3feef429fd3854719a3fa80f886e",
+        "size": [
+          160,
+          90
+        ],
+        "frames": 8,
+        "durations_ms": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "total_duration_ms": 800,
+        "loop": 0
+      },
+      "bytes_saved": 6048,
+      "percent_saved": 72.4,
+      "frame_alignment_comparable": true,
+      "decoded_rgba_frames_equal": true,
+      "frame_timing_equal": true,
+      "loop_equal": true,
+      "strict_decoded_match": true
+    },
+    "changed-pixel.gif": {
+      "before": {
+        "bytes": 8354,
+        "sha256": "d32446bce268e4d439057463f603b29968db8c4eceac1f170f2a2a2a9087eb7f",
+        "size": [
+          160,
+          90
+        ],
+        "frames": 8,
+        "durations_ms": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "total_duration_ms": 800,
+        "loop": 0
+      },
+      "after": {
+        "bytes": 2307,
+        "sha256": "e6eb5d78061ee8daadf38ab2fcdae1172e064e96b6cad4f7851c48a515ec42e8",
+        "size": [
+          160,
+          90
+        ],
+        "frames": 8,
+        "durations_ms": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "total_duration_ms": 800,
+        "loop": 0
+      },
+      "bytes_saved": 6047,
+      "percent_saved": 72.38,
+      "frame_alignment_comparable": true,
+      "decoded_rgba_frames_equal": false,
+      "frame_timing_equal": true,
+      "loop_equal": true,
+      "strict_decoded_match": false
+    },
+    "changed-timing.gif": {
+      "before": {
+        "bytes": 8354,
+        "sha256": "d32446bce268e4d439057463f603b29968db8c4eceac1f170f2a2a2a9087eb7f",
+        "size": [
+          160,
+          90
+        ],
+        "frames": 8,
+        "durations_ms": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "total_duration_ms": 800,
+        "loop": 0
+      },
+      "after": {
+        "bytes": 2306,
+        "sha256": "dd2f88cb871abfda11fccfb21c55b7f0cef0a33e369529c233050e90bcac0956",
+        "size": [
+          160,
+          90
+        ],
+        "frames": 8,
+        "durations_ms": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200
+        ],
+        "total_duration_ms": 1600,
+        "loop": 0
+      },
+      "bytes_saved": 6048,
+      "percent_saved": 72.4,
+      "frame_alignment_comparable": true,
+      "decoded_rgba_frames_equal": true,
+      "frame_timing_equal": false,
+      "loop_equal": true,
+      "strict_decoded_match": false
+    },
+    "resized.gif": {
+      "before": {
+        "bytes": 8354,
+        "sha256": "d32446bce268e4d439057463f603b29968db8c4eceac1f170f2a2a2a9087eb7f",
+        "size": [
+          160,
+          90
+        ],
+        "frames": 8,
+        "durations_ms": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "total_duration_ms": 800,
+        "loop": 0
+      },
+      "after": {
+        "bytes": 1305,
+        "sha256": "7779da4b8985d70f964f9406b4ff717690a249869e4fef822b9242cc67b3c491",
+        "size": [
+          80,
+          45
+        ],
+        "frames": 8,
+        "durations_ms": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "total_duration_ms": 800,
+        "loop": 0
+      },
+      "bytes_saved": 7049,
+      "percent_saved": 84.38,
+      "frame_alignment_comparable": false,
+      "decoded_rgba_frames_equal": null,
+      "frame_timing_equal": true,
+      "loop_equal": true,
+      "strict_decoded_match": false
+    }
+  }
+}
